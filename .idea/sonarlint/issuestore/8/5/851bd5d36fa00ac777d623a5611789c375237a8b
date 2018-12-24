@@ -1,0 +1,8 @@
+
+Ysquid:S1854$"6Remove this useless assignment to local variable "mv".(¹Ù¡ëûÿÿÿÿ8´‰êáø,
+Ysquid:S1854"6Remove this useless assignment to local variable "mv".(¸¾õæøÿÿÿÿ8¬×µáø,
+csquid:S1858"G"getRequestURI" returns a string, there's no need to call "toString()".(ø§òÊıÿÿÿÿ
+Ysquid:S1854'"6Remove this useless assignment to local variable "mv".(¸¾õæøÿÿÿÿ8À¯ïáø,
+Ysquid:S1854"6Remove this useless assignment to local variable "mv".(¸¾õæøÿÿÿÿ8èŞ¯áø,
+lsquid:S1192"IDefine a constant instead of duplicating this literal "jsonView" 3 times.(¸¾õæøÿÿÿÿ8Öæïáø,
+>squid:S1481"'Remove this unused "mv" local variable.(êÙõ

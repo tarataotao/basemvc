@@ -1,0 +1,19 @@
+
+F
+generator/使用脚本,6\3\634cda1ef71a377dcc09e3e414ccdd28c421fd1b
+G
+generator/generator.xml,2\8\286f395ad40913e6ba1459479028ff660295143b
+R
+"src/main/java/common/JsonData.java,f\3\f33a7d224654cbef495e65fad2cce2cef5610b73
+[
++src/main/webapp/WEB-INF/views/exception.jsp,1\9\19ea688fc3cafc1c8849eb451ad54b899df9a7ed
+`
+0src/main/java/exception/PermissionException.java,1\3\13af571a4a5266ae1951fdac4585606cbd2ce6e6
+X
+(src/main/resources/springmvc-servlet.xml,8\a\8a2a9b5be372aaa9396a5b72b12f8c59e488bd07
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+d
+4src/main/java/exception/SpringExceptionResolver.java,8\5\851bd5d36fa00ac777d623a5611789c375237a8b

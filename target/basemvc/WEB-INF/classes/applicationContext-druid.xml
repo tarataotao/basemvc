@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="stat-filter" class="com.alibaba.druid.filter.stat.StatFilter">
+    <property name="slowSqlMillis" value="3000"/>
+    <property name="logSlowSql" value="true"/>
+    <property name="mergeSql" value="true"/>
+</bean>
+    <bean id="wall-filter" class="com.alibaba.druid.wall.WallFilter">
+        <property name="dbType" value="mysql"/>
+    </bean>
+</beans>
