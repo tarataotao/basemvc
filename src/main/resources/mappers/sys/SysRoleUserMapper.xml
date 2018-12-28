@@ -103,4 +103,10 @@
       operate_ip = #{operateIp,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+
+  <select id="getRoleIdListByUserId" parameterType="map" resultType="int">
+    select role_id
+    from sys_role_user
+    WHERE user_id=#{userId}
+  </select>
 </mapper>

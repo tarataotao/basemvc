@@ -41,7 +41,7 @@ public class SysUserServiceImpl implements SysUserService {
         String password= PasswordUtil.randomPassword();
         password="12345678";
         String encryptedPassword= MD5Util.encrypt(password);
-        SysUser sysUser=SysUser.builder().username(param.getUsername()).telephone(param.getTelephone())
+        SysUser sysUser= SysUser.builder().username(param.getUsername()).telephone(param.getTelephone())
                 .password(encryptedPassword).mail(param.getMail()).password(password).deptId(param.getDeptId())
                 .status(param.getStatus()).remark(param.getRemark()).build();
         sysUser.setOperateIp(RequestHolder.getCurrentUser().getUsername());

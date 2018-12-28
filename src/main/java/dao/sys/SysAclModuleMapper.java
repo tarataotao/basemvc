@@ -18,7 +18,7 @@ public interface SysAclModuleMapper {
 
     int updateByPrimaryKey(SysAclModule record);
 
-    int countByNameAndParentId(@Param("parentId") Integer parentId,@Param("aclModuleName") String aclModuleName,@Param("deptId") Integer deptId);
+    int countByNameAndParentId(@Param("parentId") Integer parentId,@Param("name") String aclModuleName,@Param("id") Integer deptId);
 
     List<SysAclModule> getChildAclModuleListByLevel(@Param("level") String level);
 

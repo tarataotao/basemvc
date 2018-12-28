@@ -1,6 +1,5 @@
 package dao.sys;
 
-import dto.DeptLevelDto;
 import model.sys.SysDept;
 import org.apache.ibatis.annotations.Param;
 

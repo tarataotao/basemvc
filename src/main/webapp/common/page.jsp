@@ -36,6 +36,9 @@
     Mustache.parse(paginateTemplate);
     
     function renderPage(url, total, pageNo, pageSize, currentSize, idElement, callback) {
+        if(typeof (undefined)){
+            pageNo=1;
+        }
         var maxPageNo = Math.ceil(total / pageSize);
         var paramStartChar = url.indexOf("?") > 0 ? "&" : "?";
         var from = (pageNo - 1) * pageSize + 1;
@@ -43,7 +46,7 @@
             from: from > total ? total : from,
             to: (from + currentSize - 1) > total ? total : (from + currentSize - 1),
             total : total,
-            pageNo : pageNo||1,
+            pageNo : pageNo,
             maxPageNo : maxPageNo,
             nextPageNo: pageNo >= maxPageNo ? maxPageNo : (pageNo + 1),
             beforePageNo : pageNo == 1 ? 1 : (pageNo - 1),

@@ -27,6 +27,7 @@
         <property name="configLocation" value="classpath:applicationContext-mybatis.xml"/>
         <property name="dataSource" ref="datasource"/>
         <property name="mapperLocations" value="classpath:mappers/*/*.xml"/>
+
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">

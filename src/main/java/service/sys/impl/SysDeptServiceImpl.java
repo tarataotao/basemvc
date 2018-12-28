@@ -10,13 +10,11 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import param.DeptParam;
 import service.sys.SysDeptService;
-import sun.misc.Request;
 import util.BeanValidator;
 import util.IpUtil;
 import util.LevelUtil;
 
 import javax.annotation.Resource;
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
@@ -33,7 +31,7 @@ public class SysDeptServiceImpl implements SysDeptService{
         if(checkExist(param.getParentId(),param.getName(),param.getId())){
             throw new ParamException("同一层级下存在相同名称的部门");
         }
-        SysDept sysDept=SysDept.builder().name(param.getName())
+        SysDept sysDept= SysDept.builder().name(param.getName())
                 .parentId(param.getParentId())
                 .seq(param.getSeq()).remark(param.getRemark()).build();
         sysDept.setLevel(LevelUtil.calculateLevel(getLevel(param.getParentId()),param.getParentId()));

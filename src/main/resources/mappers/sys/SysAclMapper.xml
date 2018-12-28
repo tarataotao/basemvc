@@ -174,4 +174,45 @@
       operate_ip = #{operateIp,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  
+  
+  <select id="countByAclModuleId" parameterType="map" resultType="int" >
+   select count(1)
+    from sys_acl
+    where acl_module_id=#{aclModuleId}
+  </select>
+
+  <select id="getPageByAclModuleId" parameterType="map" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from sys_acl
+    where acl_module_id = #{aclModuleId,jdbcType=INTEGER}
+    ORDER  by seq ASC,name ASC
+    limit #{page.offset},#{page.pageSize}
+
+  </select>
+
+  <select id="countByNameAndAclModuleId" parameterType="map" resultType="int">
+    select count(1)
+    from sys_acl
+    where acl_module_id=#{aclModuleId}
+    And name=#{name}
+    <if test="id !=null ">
+      And id !=#{id}
+    </if>
+  </select>
+  <select id="getAll"  resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"/>
+    from sys_acl
+  </select>
+  
+  <select id="getByIdList" parameterType="map" resultMap="BaseResultMap">
+    SELECT <include refid="Base_Column_List" />
+    from sys_acl
+    WHERE id in
+    <foreach collection="idList" item="id" open="(" close=")" separator=",">
+      #{id}
+    </foreach>
+  </select>
 </mapper>

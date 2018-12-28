@@ -31,7 +31,8 @@ public class SysAclModuleServiceImpl implements SysAclModuleService {
         }
         SysAclModule aclModule=SysAclModule.builder().name(param.getName()).parentId(param.getParentId()).seq(param.getSeq())
                 .status(param.getStatus()).remark(param.getRemark()).build();
-        aclModule.setLevel(LevelUtil.calculateLevel(getLevel(param.getParentId()),param.getParentId()));
+        String level= LevelUtil.calculateLevel(getLevel(param.getParentId()),param.getParentId());
+        aclModule.setLevel(level);
         aclModule.setOperator(RequestHolder.getCurrentUser().getUsername());
         aclModule.setOperateIp(IpUtil.getRemoteIp(RequestHolder.getCurrentRequest()));
         aclModule.setOperateTime(new Date());
@@ -52,6 +53,7 @@ public class SysAclModuleServiceImpl implements SysAclModuleService {
         after.setOperator(RequestHolder.getCurrentUser().getUsername());
         after.setOperateIp(IpUtil.getRemoteIp(RequestHolder.getCurrentRequest()));
         after.setOperateTime(new Date());
+        updateWithChild(before,after);
     }
 
     private void updateWithChild(SysAclModule before,SysAclModule after){

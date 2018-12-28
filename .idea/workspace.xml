@@ -6,7 +6,209 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b48bfe6e-faf0-40fe-b1ee-33fe7f5e7f6b" name="Default" comment="" />
+    <list default="true" id="b48bfe6e-faf0-40fe-b1ee-33fe7f5e7f6b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/controller/sys/SysRoleController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dto/AclDto.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/param/AclParam.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/param/RoleParam.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/sys/SysCoreService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/sys/SysRoleAclService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/sys/SysRoleService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/sys/SysRoleUserService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysCoreServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleAclServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleUserServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/StringUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/role.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/1_close.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/1_open.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/diy/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/line_conn.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/zTreeStandard.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/img/zTreeStandard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/jquery.ztree.all.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/jquery.ztree.core.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/jquery.ztree.excheck.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/jquery.ztree.exedit.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/jquery.ztree.exhide.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/ztree/zTreeStyle.css" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/basemvc.iml" afterPath="$PROJECT_DIR$/basemvc.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/sys/SysAclController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/sys/SysAclController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/sys/SysAclModuleController.java" afterPath="$PROJECT_DIR$/src/main/java/controller/sys/SysAclModuleController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/sys/SysAclMapper.java" afterPath="$PROJECT_DIR$/src/main/java/dao/sys/SysAclMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/sys/SysAclModuleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/dao/sys/SysAclModuleMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/sys/SysDeptMapper.java" afterPath="$PROJECT_DIR$/src/main/java/dao/sys/SysDeptMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/sys/SysRoleAclMapper.java" afterPath="$PROJECT_DIR$/src/main/java/dao/sys/SysRoleAclMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/sys/SysRoleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/dao/sys/SysRoleMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/sys/SysRoleUserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/dao/sys/SysRoleUserMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/AclModuleLevelDto.java" afterPath="$PROJECT_DIR$/src/main/java/dto/AclModuleLevelDto.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/sys/SysAcl.java" afterPath="$PROJECT_DIR$/src/main/java/model/sys/SysAcl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/sys/SysAclModule.java" afterPath="$PROJECT_DIR$/src/main/java/model/sys/SysAclModule.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/sys/SysDept.java" afterPath="$PROJECT_DIR$/src/main/java/model/sys/SysDept.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/sys/SysLog.java" afterPath="$PROJECT_DIR$/src/main/java/model/sys/SysLog.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/sys/SysLogWithBLOBs.java" afterPath="$PROJECT_DIR$/src/main/java/model/sys/SysLogWithBLOBs.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/sys/SysRole.java" afterPath="$PROJECT_DIR$/src/main/java/model/sys/SysRole.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/sys/SysRoleAcl.java" afterPath="$PROJECT_DIR$/src/main/java/model/sys/SysRoleAcl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/sys/SysRoleUser.java" afterPath="$PROJECT_DIR$/src/main/java/model/sys/SysRoleUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/sys/SysUser.java" afterPath="$PROJECT_DIR$/src/main/java/model/sys/SysUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/sys/SysTreeService.java" afterPath="$PROJECT_DIR$/src/main/java/service/sys/SysTreeService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysAclModuleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysAclModuleServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysDeptServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysDeptServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysTreeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysTreeServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysUserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/service/sys/impl/SysUserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/LevelUtil.java" afterPath="$PROJECT_DIR$/src/main/java/util/LevelUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/TestMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/sys/SysAclMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/sys/SysAclMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleAclMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleAclMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleUserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleUserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/acl.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/acl.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/backend_common.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/common/backend_common.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/common/page.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/common/page.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/applicationContext-datasource.xml" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/beans/Mail$MailBuilder.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/beans/Mail$MailBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/beans/Mail.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/beans/Mail.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/beans/PageQuery.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/beans/PageQuery.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/beans/PageResult$PageResultBuilder.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/beans/PageResult$PageResultBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/beans/PageResult.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/beans/PageResult.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/common/JsonData.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/common/JsonData.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/common/RequestHolder.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/common/RequestHolder.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/AdminController.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/TestController.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/TestController.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/UserController.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/sys/SysAclModuleController.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/sys/SysAclModuleController.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/sys/SysDeptController.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/sys/SysDeptController.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/sys/SysUserController.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/controller/sys/SysUserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysDeptMapper.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysDeptMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysLogMapper.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysLogMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysRoleAclMapper.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysRoleAclMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysRoleMapper.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysRoleMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysRoleUserMapper.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysRoleUserMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysUserMapper.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dao/sys/SysUserMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dto/DeptLevelDto.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/dto/DeptLevelDto.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/exception/ParamException.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/exception/ParamException.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/exception/PermissionException.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/exception/PermissionException.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/exception/SpringExceptionResolver.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/exception/SpringExceptionResolver.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/filter/LoginFilter.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/filter/LoginFilter.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/interceptor/HttpInterceptor.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/interceptor/HttpInterceptor.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/mappers/TestMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/mappers/sys/SysRoleAclMapper.xml" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/mappers/sys/SysRoleAclMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/mappers/sys/SysRoleMapper.xml" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/mappers/sys/SysRoleMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/mappers/sys/SysRoleUserMapper.xml" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/mappers/sys/SysRoleUserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/src/SysAcl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/src/SysAclModule.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/src/SysDept.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/src/SysLog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/src/SysLogWithBLOBs.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/src/SysRole.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/src/SysRoleAcl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/src/SysRoleUser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/src/SysUser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysAclModule$SysAclModuleBuilder.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysAclModule$SysAclModuleBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysAclModule.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysAclModule.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysDept$SysDeptBuilder.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysDept$SysDeptBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysDept.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysDept.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysLog.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysLog.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysLogWithBLOBs.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysLogWithBLOBs.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysRole.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysRole.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysRoleAcl.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysRoleAcl.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysRoleUser.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysRoleUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysUser$SysUserBuilder.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysUser$SysUserBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysUser.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/model/sys/SysUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/param/AclModuleParam.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/param/AclModuleParam.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/param/DeptParam.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/param/DeptParam.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/param/TestVo.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/param/TestVo.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/param/UserParam.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/param/UserParam.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/SysAclModuleService.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/SysAclModuleService.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/SysDeptService.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/SysDeptService.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/SysTreeService.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/SysTreeService.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/SysUserService.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/SysUserService.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/impl/SysDeptServiceImpl.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/impl/SysDeptServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/impl/SysUserServiceImpl.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/service/sys/impl/SysUserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/springmvc-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/ApplicationContextHelper.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/ApplicationContextHelper.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/BeanValidator.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/BeanValidator.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/IpUtil.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/IpUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/JsonMapper.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/JsonMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/MD5Util.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/MD5Util.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/MailUtil.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/MailUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/PasswordUtil.class" afterPath="$PROJECT_DIR$/target/basemvc/WEB-INF/classes/util/PasswordUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/basemvc/common/backend_common.jsp" afterPath="$PROJECT_DIR$/target/basemvc/common/backend_common.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext-datasource.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/Mail$MailBuilder.class" afterPath="$PROJECT_DIR$/target/classes/beans/Mail$MailBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/Mail.class" afterPath="$PROJECT_DIR$/target/classes/beans/Mail.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/PageQuery.class" afterPath="$PROJECT_DIR$/target/classes/beans/PageQuery.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/PageResult$PageResultBuilder.class" afterPath="$PROJECT_DIR$/target/classes/beans/PageResult$PageResultBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beans/PageResult.class" afterPath="$PROJECT_DIR$/target/classes/beans/PageResult.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/JsonData.class" afterPath="$PROJECT_DIR$/target/classes/common/JsonData.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/common/RequestHolder.class" afterPath="$PROJECT_DIR$/target/classes/common/RequestHolder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/controller/AdminController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/TestController.class" afterPath="$PROJECT_DIR$/target/classes/controller/TestController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/sys/SysAclModuleController.class" afterPath="$PROJECT_DIR$/target/classes/controller/sys/SysAclModuleController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/sys/SysDeptController.class" afterPath="$PROJECT_DIR$/target/classes/controller/sys/SysDeptController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/sys/SysUserController.class" afterPath="$PROJECT_DIR$/target/classes/controller/sys/SysUserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/sys/SysDeptMapper.class" afterPath="$PROJECT_DIR$/target/classes/dao/sys/SysDeptMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/sys/SysLogMapper.class" afterPath="$PROJECT_DIR$/target/classes/dao/sys/SysLogMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/sys/SysRoleAclMapper.class" afterPath="$PROJECT_DIR$/target/classes/dao/sys/SysRoleAclMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/sys/SysRoleMapper.class" afterPath="$PROJECT_DIR$/target/classes/dao/sys/SysRoleMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/sys/SysRoleUserMapper.class" afterPath="$PROJECT_DIR$/target/classes/dao/sys/SysRoleUserMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dao/sys/SysUserMapper.class" afterPath="$PROJECT_DIR$/target/classes/dao/sys/SysUserMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/DeptLevelDto.class" afterPath="$PROJECT_DIR$/target/classes/dto/DeptLevelDto.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exception/ParamException.class" afterPath="$PROJECT_DIR$/target/classes/exception/ParamException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exception/PermissionException.class" afterPath="$PROJECT_DIR$/target/classes/exception/PermissionException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exception/SpringExceptionResolver.class" afterPath="$PROJECT_DIR$/target/classes/exception/SpringExceptionResolver.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/filter/LoginFilter.class" afterPath="$PROJECT_DIR$/target/classes/filter/LoginFilter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/interceptor/HttpInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/interceptor/HttpInterceptor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/TestMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/sys/SysRoleAclMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/sys/SysRoleAclMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/sys/SysRoleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/sys/SysRoleMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/sys/SysRoleUserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/sys/SysRoleUserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysAclModule$SysAclModuleBuilder.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysAclModule$SysAclModuleBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysAclModule.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysAclModule.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysDept$SysDeptBuilder.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysDept$SysDeptBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysDept.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysDept.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysLog.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysLog.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysLogWithBLOBs.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysLogWithBLOBs.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysRole.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysRole.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysRoleAcl.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysRoleAcl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysRoleUser.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysRoleUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysUser$SysUserBuilder.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysUser$SysUserBuilder.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/sys/SysUser.class" afterPath="$PROJECT_DIR$/target/classes/model/sys/SysUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/param/AclModuleParam.class" afterPath="$PROJECT_DIR$/target/classes/param/AclModuleParam.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/param/DeptParam.class" afterPath="$PROJECT_DIR$/target/classes/param/DeptParam.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/param/TestVo.class" afterPath="$PROJECT_DIR$/target/classes/param/TestVo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/param/UserParam.class" afterPath="$PROJECT_DIR$/target/classes/param/UserParam.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/sys/SysAclModuleService.class" afterPath="$PROJECT_DIR$/target/classes/service/sys/SysAclModuleService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/sys/SysDeptService.class" afterPath="$PROJECT_DIR$/target/classes/service/sys/SysDeptService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/sys/SysTreeService.class" afterPath="$PROJECT_DIR$/target/classes/service/sys/SysTreeService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/sys/SysUserService.class" afterPath="$PROJECT_DIR$/target/classes/service/sys/SysUserService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/sys/impl/SysDeptServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/service/sys/impl/SysDeptServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/sys/impl/SysUserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/service/sys/impl/SysUserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/target/classes/springmvc-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/ApplicationContextHelper.class" afterPath="$PROJECT_DIR$/target/classes/util/ApplicationContextHelper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/BeanValidator.class" afterPath="$PROJECT_DIR$/target/classes/util/BeanValidator.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/IpUtil.class" afterPath="$PROJECT_DIR$/target/classes/util/IpUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/JsonMapper.class" afterPath="$PROJECT_DIR$/target/classes/util/JsonMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/MD5Util.class" afterPath="$PROJECT_DIR$/target/classes/util/MD5Util.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/MailUtil.class" afterPath="$PROJECT_DIR$/target/classes/util/MailUtil.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/util/PasswordUtil.class" afterPath="$PROJECT_DIR$/target/classes/util/PasswordUtil.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,108 +250,118 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="SysAclModuleController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/sys/SysAclModuleController.java">
+      <file leaf-file-name="role.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/role.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+            <state relative-caret-position="6831">
+              <caret line="297" column="9" lean-forward="false" selection-start-line="297" selection-start-column="9" selection-end-line="297" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysRoleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/sys/SysRoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1173">
+              <caret line="68" column="35" lean-forward="false" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#1355#1356#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="acl.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/acl.jsp">
+      <file leaf-file-name="SysRoleAclService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/SysRoleAclService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="274" column="39" lean-forward="false" selection-start-line="274" selection-start-column="24" selection-end-line="274" selection-end-column="39" />
+            <state relative-caret-position="138">
+              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
+      <file leaf-file-name="SysRoleAclServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleAclServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2093">
-              <caret line="91" column="59" lean-forward="false" selection-start-line="91" selection-start-column="59" selection-end-line="91" selection-end-column="59" />
+            <state relative-caret-position="161">
+              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysRoleAcl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/sys/SysRoleAcl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
-                <marker date="1545563829333" expanded="true" signature="7177:7288" ph="..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="SysRoleAclMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao/sys/SysRoleAclMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="92">
+              <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdminController.java">
+      <file leaf-file-name="SysRoleAclMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleAclMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="509">
+              <caret line="125" column="53" lean-forward="false" selection-start-line="125" selection-start-column="53" selection-end-line="125" selection-end-column="53" />
+              <folding>
+                <marker date="1545912466075" expanded="true" signature="893:1001" ph="select from sys_role_acl" />
+                <marker date="1545912466075" expanded="true" signature="1088:1150" ph="delete from sys_role_acl... " />
+                <marker date="1545912466075" expanded="true" signature="1228:1525" ph="insert into sys_role_acl... " />
+                <marker date="1545912466075" expanded="true" signature="2764:3331" ph="update sys_role_acl... " />
+                <marker date="1545912466075" expanded="true" signature="3421:3718" ph="update sys_role_acl... " />
+                <marker date="1545912466075" expanded="true" signature="3814:3852" ph="SELECT FROM sys_role_acl" />
+                <marker date="1545912466075" expanded="true" signature="4059:4112" ph="DELETE from sys_role_acl... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysAclController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/sys/SysAclController.java">
+      <file leaf-file-name="SysRoleUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/SysRoleUserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysDeptController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/sys/SysDeptController.java">
+      <file leaf-file-name="SysRoleUserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="161">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_user" pinned="false" current-in-tab="false">
-        <entry file="das://table:/fad1ecdc/97799657-94be-4f9f-bf03-1e6093eb58c9/base_project.sys_user">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sys_acl" pinned="false" current-in-tab="false">
-        <entry file="das://table:/fad1ecdc/97799657-94be-4f9f-bf03-1e6093eb58c9/base_project.sys_acl">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dept.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/dept.jsp">
+      <file leaf-file-name="StringUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/StringUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="65" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="253">
+              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,48 +372,51 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dept-ed</find>
-      <find>lastClickDeptId</find>
-      <find>dept-delete</find>
-      <find>ajax</find>
-      <find>alert</find>
-      <find>inn</find>
-      <find>page.do</find>
-      <find>handleDepSelected</find>
-      <find>callback</find>
-      <find>renderPage</find>
-      <find>Base_Column_List</find>
-      <find>list.json</find>
-      <find>todo</find>
-      <find>dialog-user-form</find>
-      <find>updateDept</find>
-      <find>updateUser</find>
-      <find>user-edit</find>
-      <find>编辑部门</find>
-      <find>countByTelephone</find>
-      <find>file</find>
-      <find>setOperator</find>
-      <find>127</find>
-      <find>base_co</find>
-      <find>recursiveRenderDeptSelect</find>
-      <find>aclListTemplate</find>
-      <find>aclModule</find>
+      <find>updateAcl</find>
+      <find>updateAcl(</find>
+      <find>lastClickAclModuleId</find>
+      <find>角色</find>
+      <find>include</find>
       <find>新增</find>
-      <find>.jsp</find>
+      <find>roleList</find>
       <find>update</find>
-      <find>updateAclModule</find>
+      <find>rolestatus</find>
+      <find>sus</find>
+      <find>plugin</find>
+      <find>SysAcl</find>
+      <find>SysAclModule</find>
+      <find>SysDeptMapper</find>
+      <find>sys.</find>
+      <find>model.</find>
+      <find>lastRoleId</find>
+      <find>role_</find>
+      <find>han</find>
+      <find>loa'd'R'o</find>
+      <find>bindRoleClick</find>
+      <find>recrusivePrepareTreeData</find>
+      <find>debugger;</find>
+      <find>incl</find>
+      <find>tempAclModule</find>
+      <find>tmp</find>
+      <find>updateRole</find>
+      <find>insert</find>
+      <find>roleId</find>
+      <find>startWith</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -211,57 +426,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/param/TestVo.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/util/LevelUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/sys/SysDept.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dto/DeptLevelDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/sys/SysDeptService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/param/DeptParam.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exception/SpringExceptionResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/sys/SysDeptMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/sys/SysDeptMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/common/backend_common.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/param/UserParam.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/sys/SysUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/PasswordUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/MD5Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/sys/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/beans/PageQuery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/sys/SysUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao/sys/SysUserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/sys/SysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/beans/PageResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/sys/SysUserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/RequestHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/interceptor/HttpInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/filter/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/util/IpUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysDeptServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/beans/Mail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/MailUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/param/AclModuleParam.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/sys/SysAclModuleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/sys/SysAclModule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysAclModuleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/common/page.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/dept.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/service/sys/SysTreeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysAclServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/SysAclService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/SysUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dao/sys/SysAclModuleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/sys/SysDeptMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/sys/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/sys/SysLogMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dto/DeptLevelDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/SysRoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/filter/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysAclModuleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysDeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/sys/SysUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/sys/SysAclController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/sys/SysAclModuleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/sys/SysDeptMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/sys/SysLogMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/sys/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/backend_common.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/SysTreeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/dto/AclModuleLevelDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dto/AclDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysCoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/SysCoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/sys/SysRoleUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/sys/SysRoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysCoreServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/sys/SysAcl.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysTreeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/sys/SysAclModuleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/sys/SysDeptController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/acl.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/sys/SysAclMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/sys/SysAclMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleAclService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/SysRoleAclService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/sys/SysRoleAcl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/sys/SysRoleAclMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/sys/SysRoleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleAclServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/role.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleAclMapper.xml" />
       </list>
     </option>
   </component>
@@ -292,15 +507,23 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="basemvc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="basemvc Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="504" />
-    <option name="y" value="37" />
-    <option name="width" value="1377" />
-    <option name="height" value="1005" />
+    <option name="x" value="908" />
+    <option name="y" value="22" />
+    <option name="width" value="990" />
+    <option name="height" value="1002" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -317,6 +540,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,7 +573,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basemvc" type="b2602c69:ProjectViewProjectNode" />
@@ -356,24 +581,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basemvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basemvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basemvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basemvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="param" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basemvc" type="b2602c69:ProjectViewProjectNode" />
@@ -382,55 +590,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="basemvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basemvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basemvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basemvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basemvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basemvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basemvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basemvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basemvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basemvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -439,24 +603,24 @@
     <property name="last_opened_file_path" value="F:/极客学院/shiro/project" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="index.jsp&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/index.jsp&#10;acl.jsp&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/views/sys/acl.jsp&#10;adm&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/views/admin.jsp&#10;Sysaclmodulecont&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysAclModuleController.java&#10;SysAclModuleMapper&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/resources/mappers/sys/SysAclModuleMapper.xml&#10;SysTree&#9;PSI&#9;JAVA://service.sys.SysTreeService&#10;AclModul&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysAclModuleController.java&#10;dep&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/views/sys/dept.jsp&#10;page.jsp&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/common/page.jsp&#10;dept.jsp&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/views/sys/dept.jsp&#10;SysaclModuCon&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysAclModuleController.java&#10;sysaclModulem&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/resources/mappers/sys/SysAclModuleMapper.xml&#10;pom.xml&#9;FILE&#9;file://F:/project/springBootProject/basemvc/pom.xml&#10;sysDept&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/service/sys/impl/SysDeptServiceImpl.java&#10;sysdeptSer&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/service/sys/impl/SysDeptServiceImpl.java&#10;sysuser&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/service/sys/impl/SysUserServiceImpl.java&#10;sysDeptCon&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysDeptController.java&#10;web.xml&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/web.xml" />
+    <property name="SearchEverywhereHistoryKey" value="SysRoleAclMapper&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/resources/mappers/sys/SysRoleAclMapper.xml&#10;sys&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/dao/sys/SysRoleAclMapper.java&#10;SysCon&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysRoleController.java&#10;SysRoleCon&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysRoleController.java&#10;sysCoreSer&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/service/sys/impl/SysCoreServiceImpl.java&#10;sysRoleUser&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/dao/sys/SysRoleUserMapper.java&#10;SysRoleAclM&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/dao/sys/SysRoleAclMapper.java&#10;role&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/views/sys/role.jsp&#10;sysRoleConf&#9;null&#9;null&#10;sysTreeService&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/service/sys/impl/SysTreeServiceImpl.java&#10;SysAcl&#9;PSI&#9;JAVA://model.sys.SysAcl&#10;sysAcl&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/dao/sys/SysRoleAclMapper.java&#10;sysRoleCont&#9;PSI&#9;JAVA://controller.sys.SysRoleController&#10;role.jsp&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/views/sys/role.jsp&#10;pom.xml&#9;FILE&#9;file://F:/project/springBootProject/basemvc/pom.xml&#10;acl.jsp&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/views/sys/acl.jsp&#10;aclP&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/param/AclModuleParam.java&#10;sysAclModule&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysAclModuleController.java&#10;Page&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/beans/PageQuery.java&#10;SysAclMapp&#9;PSI&#9;JAVA://dao.sys.SysAclMapper&#10;sysAclMo&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysAclModuleController.java&#10;sysAclModuleCon&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysAclModuleController.java&#10;aclModuleCon&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysAclModuleController.java&#10;sysAclModuleMapper&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/resources/mappers/sys/SysAclModuleMapper.xml&#10;index.jsp&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/index.jsp&#10;adm&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/views/admin.jsp&#10;Sysaclmodulecont&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysAclModuleController.java&#10;SysAclModuleMapper&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/resources/mappers/sys/SysAclModuleMapper.xml&#10;SysTree&#9;PSI&#9;JAVA://service.sys.SysTreeService&#10;AclModul&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysAclModuleController.java&#10;dep&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/views/sys/dept.jsp&#10;page.jsp&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/common/page.jsp&#10;dept.jsp&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/views/sys/dept.jsp&#10;SysaclModuCon&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysAclModuleController.java&#10;sysaclModulem&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/resources/mappers/sys/SysAclModuleMapper.xml&#10;sysDept&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/service/sys/impl/SysDeptServiceImpl.java&#10;sysdeptSer&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/service/sys/impl/SysDeptServiceImpl.java&#10;sysuser&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/service/sys/impl/SysUserServiceImpl.java&#10;sysDeptCon&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/java/controller/sys/SysDeptController.java&#10;web.xml&#9;FILE&#9;file://F:/project/springBootProject/basemvc/src/main/webapp/WEB-INF/web.xml" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\springBootProject\basemvc\src\main\webapp" />
+      <recent name="F:\project\springBootProject\basemvc\src\main\java\util" />
+      <recent name="F:\project\springBootProject\basemvc\src\main\java\model\sys" />
+      <recent name="F:\project\springBootProject\basemvc\src\main\java\dao\sys" />
+      <recent name="F:\project\springBootProject\basemvc\src\main\webapp\WEB-INF\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\project\springBootProject\basemvc\src\main\resources" />
       <recent name="F:\project\springBootProject\basemvc\src\main\webapp\WEB-INF" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\project\springBootProject\basemvc\src\main\java\util" />
-      <recent name="F:\project\springBootProject\basemvc\src\main\java\dao\sys" />
-      <recent name="F:\project\springBootProject\basemvc\src\main\webapp\WEB-INF\views" />
-      <recent name="F:\project\springBootProject\basemvc\src\main\webapp" />
-      <recent name="F:\project\springBootProject\basemvc\src\main\webapp\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -567,7 +731,6 @@
       <listeners />
     </configuration>
     <configuration name="8080" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.1" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="basemvc:war exploded">
           <settings>
@@ -676,37 +839,43 @@
       <workItem from="1545271340297" duration="18303000" />
       <workItem from="1545355645386" duration="15728000" />
       <workItem from="1545562018409" duration="3977000" />
-      <workItem from="1545623086656" duration="285000" />
+      <workItem from="1545623086656" duration="9118000" />
+      <workItem from="1545700850567" duration="19771000" />
+      <workItem from="1545818478485" duration="3689000" />
+      <workItem from="1545822201288" duration="243000" />
+      <workItem from="1545822505490" duration="27177000" />
+      <workItem from="1545967244067" duration="363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111989000" />
+    <option name="totallyTimeSpent" value="172065000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="504" y="37" width="1377" height="1005" extended-state="1" />
+    <frame x="908" y="22" width="990" height="1002" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5358672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.046671767" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3351111" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24942617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39187574" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46706587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4348865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38819525" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28768173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -716,10 +885,45 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855436" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3432658" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5367133" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17457886" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24942617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4648391" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34392735" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297491" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3893303" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24300699" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -729,20 +933,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysDeptServiceImpl.java</url>
-          <line>30</line>
-          <properties class="service.sys.impl.SysDeptServiceImpl" method="save">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="26" />
+      <option name="time" value="43" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -756,306 +950,191 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/target/classes/applicationContext-datasource.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="874">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="572">
+          <caret line="192" column="34" lean-forward="true" selection-start-line="192" selection-start-column="34" selection-end-line="192" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/param/UserParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/sys/SysDept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/PasswordUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/backend_common.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/fad1ecdc/97799657-94be-4f9f-bf03-1e6093eb58c9/base_project.sys_dept">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/MyBatisExceptionTranslator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/fad1ecdc/97799657-94be-4f9f-bf03-1e6093eb58c9/base_project.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/sys/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="230">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/SysUserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/TestMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/sys/SysAclModuleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="106">
+          <caret line="138" column="55" lean-forward="false" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/PageQuery.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/sys/SysDeptMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="106">
+          <caret line="98" column="64" lean-forward="false" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/PageResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/sys/SysLogWithBLOBs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/sys/SysUserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/sys/SysLogMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="-2">
+          <caret line="149" column="40" lean-forward="false" selection-start-line="149" selection-start-column="40" selection-end-line="149" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/sys/SysUserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="177" column="9" lean-forward="true" selection-start-line="177" selection-start-column="9" selection-end-line="177" selection-end-column="9" />
+        <state relative-caret-position="-163">
+          <caret line="145" column="11" lean-forward="false" selection-start-line="145" selection-start-column="11" selection-end-line="145" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/sys/SysUserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/backend_common.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="77" lean-forward="true" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
+        <state relative-caret-position="288">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/common/RequestHolder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="667">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/HttpInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-druid.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="89" column="23" lean-forward="false" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/filter/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="207">
+          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/interceptor/HttpInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="141">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/IpUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" column="95" lean-forward="false" selection-start-line="16" selection-start-column="95" selection-end-line="16" selection-end-column="95" />
+        <state relative-caret-position="146">
+          <caret line="139" column="5" lean-forward="false" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysUserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dto/AclDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="49" column="24" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysDeptServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysCoreService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/SysTreeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="184" column="15" lean-forward="true" selection-start-line="184" selection-start-column="15" selection-end-line="184" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/beans/Mail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/MailUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/param/AclModuleParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/SysAclModuleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/sys/SysAclModule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/LevelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/devInstall/java/jdk1.8.0_144/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/sys/SysAclModuleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/sys/SysAclModuleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4163">
-          <caret line="181" column="23" lean-forward="false" selection-start-line="181" selection-start-column="23" selection-end-line="181" selection-end-column="23" />
+        <state relative-caret-position="230">
+          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dto/AclModuleLevelDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="231">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysAclModuleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/sys/SysRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="64" column="57" lean-forward="false" selection-start-line="64" selection-start-column="57" selection-end-line="64" selection-end-column="57" />
+        <state relative-caret-position="235">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/SysTreeService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/sys/SysAcl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        <state relative-caret-position="208">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysTreeServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/SysCoreService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="121" column="68" lean-forward="true" selection-start-line="121" selection-start-column="68" selection-end-line="121" selection-end-column="68" />
+        <state relative-caret-position="69">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/fad1ecdc/97799657-94be-4f9f-bf03-1e6093eb58c9/base_project.sys_user">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysAclServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/fad1ecdc/97799657-94be-4f9f-bf03-1e6093eb58c9/base_project.sys_acl_module">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1069,75 +1148,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/AdminController.java">
+    <entry file="jar://D:/devInstall/java/jdk1.8.0_144/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="269">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/sys/SysAclModuleController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/sys/SysRoleUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="69">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="104" column="11" lean-forward="true" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/sys/SysAclMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysTreeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="84" column="64" lean-forward="true" selection-start-line="84" selection-start-column="64" selection-end-line="84" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysCoreServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/fad1ecdc/97799657-94be-4f9f-bf03-1e6093eb58c9/base_project.sys_log">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/fad1ecdc/97799657-94be-4f9f-bf03-1e6093eb58c9/base_project.sys_role">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/fad1ecdc/97799657-94be-4f9f-bf03-1e6093eb58c9/base_project.sys_role_acl">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/fad1ecdc/97799657-94be-4f9f-bf03-1e6093eb58c9/base_project.sys_role_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/sys/SysAclMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="212" column="15" lean-forward="true" selection-start-line="212" selection-start-column="15" selection-end-line="212" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1355#1356#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/dept.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="65" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/sys/SysAclController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/SysRoleUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/sys/SysDeptController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2093">
-          <caret line="91" column="59" lean-forward="false" selection-start-line="91" selection-start-column="59" selection-end-line="91" selection-end-column="59" />
+        <state relative-caret-position="161">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <marker date="1545563829333" expanded="true" signature="7177:7288" ph="..." />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/acl.jsp">
+    <entry file="jar://$USER_HOME$/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Sets.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="274" column="39" lean-forward="false" selection-start-line="274" selection-start-column="24" selection-end-line="274" selection-end-column="39" />
+        <state relative-caret-position="230">
+          <caret line="80" column="57" lean-forward="false" selection-start-line="80" selection-start-column="49" selection-end-line="80" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/sys/SysRoleAcl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/sys/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="68" column="35" lean-forward="false" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/SysRoleAclService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/sys/role.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6831">
+          <caret line="297" column="9" lean-forward="false" selection-start-line="297" selection-start-column="9" selection-end-line="297" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/sys/impl/SysRoleAclServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/sys/SysRoleAclMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/sys/SysRoleAclMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="125" column="53" lean-forward="false" selection-start-line="125" selection-start-column="53" selection-end-line="125" selection-end-column="53" />
+          <folding>
+            <marker date="1545912466075" expanded="true" signature="893:1001" ph="select from sys_role_acl" />
+            <marker date="1545912466075" expanded="true" signature="1088:1150" ph="delete from sys_role_acl... " />
+            <marker date="1545912466075" expanded="true" signature="1228:1525" ph="insert into sys_role_acl... " />
+            <marker date="1545912466075" expanded="true" signature="2764:3331" ph="update sys_role_acl... " />
+            <marker date="1545912466075" expanded="true" signature="3421:3718" ph="update sys_role_acl... " />
+            <marker date="1545912466075" expanded="true" signature="3814:3852" ph="SELECT FROM sys_role_acl" />
+            <marker date="1545912466075" expanded="true" signature="4059:4112" ph="DELETE from sys_role_acl... " />
+          </folding>
         </state>
       </provider>
     </entry>
