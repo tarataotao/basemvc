@@ -2,11 +2,14 @@ package service.sys.impl;
 
 import com.google.common.base.Preconditions;
 import common.RequestHolder;
+import dao.sys.SysAclMapper;
 import dao.sys.SysAclModuleMapper;
 import exception.ParamException;
 import model.sys.SysAclModule;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
+import org.springframework.web.bind.annotation.RequestParam;
 import param.AclModuleParam;
 import service.sys.SysAclModuleService;
 import util.BeanValidator;
@@ -22,6 +25,8 @@ public class SysAclModuleServiceImpl implements SysAclModuleService {
 
     @Resource
     private SysAclModuleMapper sysAclModuleMapper;
+    @Resource
+    private SysAclMapper sysAclMapper;
 
     @Override
     public void save(AclModuleParam param) {
@@ -54,6 +59,20 @@ public class SysAclModuleServiceImpl implements SysAclModuleService {
         after.setOperateIp(IpUtil.getRemoteIp(RequestHolder.getCurrentRequest()));
         after.setOperateTime(new Date());
         updateWithChild(before,after);
+    }
+
+    @Override
+    public void delete(int aclModuleId) {
+        SysAclModule aclModule=sysAclModuleMapper.selectByPrimaryKey(aclModuleId);
+        Preconditions.checkNotNull(aclModule,"待删除的权限模块不存在，无法删除");
+        if(sysAclModuleMapper.countByParentId(aclModule.getId())>0){
+            throw  new ParamException("当前模块下面有子模块，无法删除");
+        }
+        if(sysAclMapper.countByAclModuleId(aclModule.getId())>0){
+            throw  new ParamException("当前模块下面有子模块，无法删除");
+        }
+        sysAclModuleMapper.deleteByPrimaryKey(aclModuleId);
+
     }
 
     private void updateWithChild(SysAclModule before,SysAclModule after){

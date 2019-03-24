@@ -8,4 +8,5 @@ public interface SysAclModuleService {
 
     public void update(AclModuleParam param);
 
+    void delete(int id);
 }

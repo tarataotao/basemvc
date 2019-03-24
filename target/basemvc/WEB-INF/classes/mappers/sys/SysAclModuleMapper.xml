@@ -182,4 +182,10 @@
     from sys_acl_module
   </select>
 
+  <select id="countByParentId" parameterType="int" resultType="int">
+    SELECT  count(1)
+    From sys_acl_module
+    where parent_id=#{aclModuleId}
+  </select>
+
 </mapper>

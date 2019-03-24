@@ -3,6 +3,7 @@ package service.sys.impl;
 import com.google.common.base.Preconditions;
 import common.RequestHolder;
 import dao.sys.SysDeptMapper;
+import dao.sys.SysUserMapper;
 import exception.ParamException;
 import model.sys.SysDept;
 import org.springframework.stereotype.Service;
@@ -23,6 +24,8 @@ public class SysDeptServiceImpl implements SysDeptService{
 
     @Resource
     private SysDeptMapper sysDeptMapper;
+    @Resource
+    private SysUserMapper sysUserMapper;
 
 
     @Override
@@ -58,6 +61,21 @@ public class SysDeptServiceImpl implements SysDeptService{
         after.setOperateIp(IpUtil.getRemoteIp(RequestHolder.getCurrentRequest()));
         after.setOperateTime(new Date());
         updateWithChild(before,after);
+    }
+
+    @Override
+    public void delete(int deptId) {
+        SysDept dept=sysDeptMapper.selectByPrimaryKey(deptId);
+        Preconditions.checkNotNull(dept,"待删除的部门不存在，无法删除");
+        int abc=sysDeptMapper.countByParentId(deptId);
+        if(sysDeptMapper.countByParentId(dept.getId())>0){
+            throw new ParamException("当前部门下面有子部门，无法删除");
+        }
+        if(sysUserMapper.countByDeptId(dept.getId())>0){
+            throw new ParamException("当前部门下面有用户，无法删除");
+        }
+        sysDeptMapper.deleteByPrimaryKey(deptId);
+
     }
 
     private void updateWithChild(SysDept befor,SysDept after){

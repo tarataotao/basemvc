@@ -1,0 +1,4 @@
+
+Bsquid:S1125"(Remove the literal "true" boolean value.(ù©ì…ùÿÿÿÿ
+Bsquid:S1481"(Remove this unused "abc" local variable.(úÄÉ¸üÿÿÿÿ
+Qsquid:S1854"7Remove this useless assignment to local variable "abc".(úÄÉ¸üÿÿÿÿ

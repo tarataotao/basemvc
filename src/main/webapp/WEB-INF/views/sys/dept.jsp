@@ -242,11 +242,22 @@
             $(".dept-delete").click(function(e){
                 e.preventDefault();
                 e.stopPropagation();
-                var deptId=$(this).attr("data-id");
+                var deptId=$("this").attr("data-id");
                 var deptName=$(this).attr("data-name");
-                if(confirm("确定要删除部门【"+deptName+"】吗？")){
-                    //TODO
-                    console.log("delete dept:"+deptName);
+                if(confirm("确定要删除部门【"+deptName+"】吗")){
+                    $.ajax({
+                        url:"/sys/dept/delete.json",
+                        data:{
+                            deptId:deptId
+                        }
+                        ,success:function(result){
+                            if(result.ret){
+                                showMessage("删除部门【"+deptName+"】","操作成功",true);
+                            }else{
+                                showMessage("删除部门【"+deptName+"】",result.msg,false);
+                            }
+                        }
+                    });
                 }
             });
             //点击部门名称查看部门人员信息
@@ -256,6 +267,8 @@
                 var deptId=$(this).attr("data-id");
                 handleDepSelected(deptId);
             });
+
+
 
             //编辑
             $(".dept-edit").click(function(e){
@@ -267,7 +280,7 @@
                     title:"编辑部门",
                     open:function(event,ui){
                         $(".ui-dialog-titlebar-close",$(this).parent()).hide();
-                        optionStr="<option vlaue=\"0\">------</option>";
+                        optionStr="<option value=\"0\">------</option>";
                         recursiveRenderDeptSelect(deptList,1);
                         $("#deptForm")[0].reset();
                         $("#parentId").html(optionStr);
@@ -444,7 +457,7 @@
                 title:"新增部门",
                 open:function(event,ui){
                     $(".ui-dialog-titlebar-close",$(this).parent()).hide();
-                    optionStr="<option vlaue=\"0\">------</option>";
+                    optionStr="<option value=\"0\">------</option>";
                     recursiveRenderDeptSelect(deptList,1);
                     $("#deptForm")[0].reset();
                     $("#parentId").html(optionStr);

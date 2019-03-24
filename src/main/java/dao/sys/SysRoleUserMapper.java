@@ -1,7 +1,9 @@
 package dao.sys;
 
 import model.sys.SysRoleUser;
+import org.apache.ibatis.annotations.Param;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public interface SysRoleUserMapper {
@@ -18,4 +20,10 @@ public interface SysRoleUserMapper {
     int updateByPrimaryKey(SysRoleUser record);
 
     List<Integer> getRoleIdListByUserId(int userId);
+
+    List<Integer> getUserIdListByRoleId(@Param("roleId") int roleId);
+
+    void deleteByRoleId(@Param("roleId") int roleId);
+
+    void batchInsert(@Param("roleUserList") List<SysRoleUser> roleUserList);
 }

@@ -5,6 +5,7 @@ import dto.DeptLevelDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 import param.DeptParam;
@@ -50,4 +51,12 @@ public class SysDeptController {
         sysDeptService.update(param);
         return JsonData.success();
     }
+
+    @RequestMapping("delete.json")
+    @ResponseBody
+    public JsonData delete(@RequestParam("deptId") int deptId){
+        sysDeptService.delete(deptId);
+        return JsonData.success();
+    }
+
 }
